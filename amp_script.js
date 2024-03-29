@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/tengz20/project-amp@latest/full_script.js'], function(APIConstructor, ampExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualtrics/qamp.js'], function(APIConstructor, ampExtension){
 
 	var API = new APIConstructor();
 	
@@ -52,7 +52,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/tengz20/project-amp@latest/full_s
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://raw.githubusercontent.com/tengz20/project-amp/main/images'
+			image : 'https://raw.githubusercontent.com/tengz20/project-amp/main/images/'
 		}
 	});
 });
