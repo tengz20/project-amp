@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://github.com/tengz20/project-amp/blob/main/full_script'], function(APIConstructor, ampExtension){
+define(['pipAPI', 'https://raw.githubusercontent.com/tengz20/project-amp/main/full_script'], function(APIConstructor, ampExtension){
 
 	var API = new APIConstructor();
 	
