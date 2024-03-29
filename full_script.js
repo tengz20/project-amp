@@ -109,7 +109,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			leftKey : 'e', 
 			
 			base_url : {//Where are your images at?
-				image : 'https://github.com/tengz20/project-amp/tree/main/images'
+				image : 'https://tengz20.github.io/project-amp/images'
 			}, 
 
 			trialsInBlock : [12, 12, 12], //Number of trials in each block 
