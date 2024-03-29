@@ -6,8 +6,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 	return ampExtension({
 		primeCats :  [
 			{
-				nameForFeedback : 'Biofuels',  //Will be used in the user feedback 
-				nameForLogging : 'Biofuels', //Will be used in the logging
+				nameForFeedback : 'Black people',  //Will be used in the user feedback 
+				nameForLogging : 'Black people', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {image : 'b01.jpg'}, 
@@ -25,8 +25,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 			}, 
 			{
-				nameForFeedback : 'Neutral',  //Will be used in the user feedback 
-				nameForLogging : 'Neutral', //Will be used in the logging
+				nameForFeedback : 'White people',  //Will be used in the user feedback 
+				nameForLogging : 'White people', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {image : 'n01.jpg'}, 
@@ -52,7 +52,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		},
 
 		base_url : {//Where are your images at?
-			image : https://github.com/tengz20/project-amp/tree/main/images
+			image : 'https://github.com/tengz20/project-amp/tree/main/images/'
 		}
 	});
 });
